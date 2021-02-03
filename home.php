@@ -95,18 +95,15 @@ button:hover{
   transition: .5s;
   cursor: pointer;
 }
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 300px) and (max-width: 600px) {
   .text {font-size: 11px}
   a.right{
     float: left;
   }
-	 h1{font-size: 15px;}
-
+  h1{font-size: 15px;}
+.card{
+  width: 50%;
 }
-.card
-{width: 50%;}
-button{width: 70px;
-height: 50px;}
 
 }
 @media screen and (max-width: 600px) {
