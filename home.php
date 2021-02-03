@@ -108,7 +108,7 @@ button:hover{
   .topnav a.icon {
     float: right;
     display: block;
-  }
+  }h1{ font-size : 20px;}
 }
 
 @media screen and (max-width: 600px) {
@@ -123,6 +123,7 @@ button:hover{
     display: block;
     text-align: left;
   }
+	h1{ font-size : 20px;}
 }
 	</style>
 </head>
