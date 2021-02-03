@@ -103,7 +103,7 @@
 
 .footer{
     background-color:#111;
-    height:100%;
+    height:500px;
     width:100%;
 
 }
