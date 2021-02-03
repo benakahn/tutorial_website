@@ -134,11 +134,11 @@ if (isset($_POST['signup'])) {
   
     if (mysqli_query($conn, $sql)) {
     echo "<script>alert('New record created successfully')</script>";
-    header("Location : newlogreg.phh");
+  
      
       } else {
     echo "<script>alert('User already Exsist')</script>";
-    header("Location : ".newlogreg.php);
+   
     }
     mysqli_close($conn);
 
