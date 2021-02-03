@@ -100,7 +100,13 @@ button:hover{
   a.right{
     float: left;
   }
-	h1{ font-size : 11px;}
+	 h1{font-size: 15px;}
+
+}
+.card
+{width: 50%;}
+button{width: 70px;
+height: 50px;}
 
 }
 @media screen and (max-width: 600px) {
