@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Course</title>
+   <link rel = "icon" href = "images/e.jpg" type = "image/x-icon"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+     @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+body{
+   background-color: #fff;
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar{
+  width: 200px;
+  height: 100%;
+  background: #03b6fc;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.wrapper .sidebar ul li a{
+  color: #fff;
+  display: block;
+}
+.hidden{
+  overflow: hidden
+}
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: #03b6fc;
+}
+    
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+}
+ 
+
+
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 200px;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+} 
+@media only screen and (max-width: 400px) {
+  img{
+    width: 50px;
+    height: 50px;
+  }
+} 
+    </style>
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="sidebar">
+        <h2>Content</h2>
+        <ul>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#synatx">Syntax</a></li>
+            <li><a href="#types">Types</a></li>
+            <li><a href="#comments">Comments</a></li>
+            <li><a href="#padding">Padding</a></li>
+            <li><a href="course.html">Back</a></li>
+        </ul> 
+        
+    </div>
+    <div class="main_content">
+        <div class="header"><h2>CSS</h2></div>  
+        <div class="info">
+         <h1 id="intro">Introduction</h1><hr style="width: 175px;"><br>
+         <p>What is CSS?<ol>
+<li>CSS stands for Cascading Style Sheets</li>
+<li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+<li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+<li>External stylesheets are stored in CSS files</li></ol></p><br><br>
+<p id="synatx">
+<h1>Syntax</h1><hr style="width: 100px;">
+<br>
+<img src="images/selector.png" style="width: 800px;height: 250px;">
+<br><ul><li>
+The selector points to the HTML element you want to style.</li>
+<li>The declaration block contains one or more declarations separated by semicolons.</li>
+<li>Each declaration includes a CSS property name and a value, separated by a colon.</li>
+<li>Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</li>
+</p><br><br>
+<p id="types">
+  <h1>Types</h1><hr style="width: 85px;"><br>
+  <ul>
+    <li>Inline</li>
+    <li>Internal</li>
+    <li>External</li>
+  </ul>
+  <br></p><p>
+  <h3>Inline CSS </h3>
+  An inline style may be used to apply a unique style for a single element.
+
+To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
+
+</p>
+<p>
+  <h3>Internal CSS </h3>
+  An internal style sheet may be used if one single HTML page has a unique style.
+</p>
+<p>
+  <h3>External CSS </h3>
+  With an external style sheet, you can change the look of an entire website by changing just one file!
+
+Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+
+</p><br>
+<br>
+<p id="comments">
+ <h1>Comments</h1> <hr style="width: 152px;"><br>
+ Comments are used to explain the code, and may help when you edit the source code at a later date.
+
+Comments are ignored by browsers.
+</p>
+<br><br>
+<p id="padding">
+  <h1>CSS Padding</h1><hr style="width: 200px;"><br>
+  The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+
+With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left).
+</p>
+      </div>
+    </div>
+</div>
+
+</body>
+</html>
