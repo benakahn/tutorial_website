@@ -308,8 +308,8 @@ function myFunction() {
   Created by <b style="color: lightblue;">Benaka H N</b> and <b style="color: lightblue;">Manjushree M P</b> <b style="color: #03b6fc;">&reg;</b>
   <a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-google"></a>
-<a href="#" class="fa fa-linkedin"></a>
+
+<a href="https://www.linkedin.com/in/benaka-h-n-46b5b61a4/" class="fa fa-linkedin"></a>
 <?php
 
 include 'conn.php';
