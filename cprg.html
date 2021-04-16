@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>C Programming Course</title>
+     <link rel = "icon" href = "images/e.jpg" type = "image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<style type="text/css">
+     @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+   background-color: #f3f5f9;
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar{
+  width: 200px;
+  height: 100%;
+  background: #03b6fc;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.wrapper .sidebar ul li a{
+  color: #fff;
+  display: block;
+}
+.hidden{
+  overflow: hidden
+}
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: #03b6fc;
+}
+    
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+}
+ 
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 200px;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}   
+    </style>
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="sidebar">
+        <h2>C Program</h2>
+        <ul>
+            <li><a href="#intro">Introduction</a></li>
+            
+            <li><a href="#head">Data Types</a></li>
+            <li><a href="#comm">Comments</a></li>
+           
+            <li><a href="course.html">Back</a></li>
+        </ul> 
+        
+    </div>
+    <div class="main_content">
+        <div class="header">C Programming</div>  
+        <div class="info">
+         <h1 id="intro">Introduction</h1><hr style="width: 175px;"><br>
+         <p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 1988, the American National Standards Institute (ANSI) had formalized the C language.C was invented to write UNIX operating system.C is a successor of 'Basic Combined Programming Language' (BCPL) called B language.Linux OS, PHP, and MySQL are written in C.C has been written in assembly language.</p>
+
+Uses of C Programming Langusge
+<ol>
+<li>Language Interpreters</li>
+<li>Network Drivers</li>
+<li>Word Processors</li>
+<li>Operating systems</li>
+<li>Database Systems</li>
+</ol><br>
+<h3>Features of C Programming language</h3>
+<ol>
+<li>C is a robust language with a rich set of built-in functions and operators.</li>
+<li>Programs written in C are efficient and fast.</li>
+<li>C is highly portable; programs once written in C can be run on other machines with minor or no modification.</li>
+<li>C is a collection of C library functions; we can also create our function and add it to the C library.</li>
+<li>C is easily extensible.</li></ol><br>
+<h3>Advantages of C Programming language</h3>
+<ol>
+<li>C is the building block for many other programming languages.</li>
+<li>Programs written in C are highly portable.</li>
+<li>Several standard functions are there (like in-built) that can be used to develop programs.</li>
+<li>C programs are collections of C library functions, and it's also easy to add functions to the C library.</li>
+<li>The modular structure makes code debugging, maintenance, and testing easier.
+</li>
+</ol>
+<br>
+<h3>Disvantages of C Programming language</h3>
+<ol>
+<li>C does not provide Object Oriented Programming (OOP) concepts.</li>
+<li>There are no concepts of Namespace in C.</li>
+<li>C does not provide binding or wrapping up of data in a single unit.</li>
+<li>C does not provide Constructor and Destructor.</li>
+</ol><br>
+
+<h1 id="head">Data Types</h1><hr style="width: 170px;"><br>
+<p>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The data-type in a programming language is the collection of data with values having fixed meaning as well as characteristics. Some of them are an integer, floating point, character, etc. Usually, programming languages specify the range values for given data-type.
+<ol><li>void :As the name suggests, it holds no value and is generally used for specifying the type of function or what it returns. If the function has a void type, it means that the function will not return any value.</li>
+<li>int :Used to denote an integer type.</li>
+<li>char :Used to denote a character type.</li>
+<li>float, double :Used to denote a floating point type.</li>
+<li>int *, float *, char * :Used to denote a pointer type.</li>
+</ol>
+</p><br>
+<h1 id="comm">Comments</h1><hr style="width: 155px;"><br>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Comments in C language are used to provide information about lines of code. It is widely used for documenting code. There are 2 types of comments in the C language.
+<ol><li>
+Single Line Comments</li>
+<li>
+Multi-Line Comments</li>
+</ol>
+<h3>Single Line Comments</h3>
+Single line comments are represented by double slash \\. Let's see an example of a single line comment in C.
+<br><h3>
+Multi-Line Comments</h3>
+Multi-Line comments are represented by slash asterisk\* ... *\. It can occupy many lines of code, but it can't be nested.
+
+</p><br>
+
+      </div>
+    </div>
+</div>
+
+</body>
+</html>

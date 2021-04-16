@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>C# Course</title>
+     <link rel = "icon" href = "images/e.jpg" type = "image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<style type="text/css">
+     @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+   background-color: #f3f5f9;
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar{
+  width: 200px;
+  height: 100%;
+  background: #03b6fc;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.wrapper .sidebar ul li a{
+  color: #fff;
+  display: block;
+}
+.hidden{
+  overflow: hidden
+}
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: #03b6fc;
+}
+    
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+}
+ 
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 200px;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}   
+    </style>
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="sidebar">
+        <h2>C#</h2>
+        <ul>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#head">Data Types</a></li>
+            <li><a href="#comm">Comments</a></li>
+           <li><a href="#cshstring">Strings</a></li>
+            <li><a href="course.html">Back</a></li>
+        </ul> 
+        
+    </div>
+    <div class="main_content">
+        <div class="header">C# Course</div>  
+        <div class="info">
+         <h1 id="intro">Introduction</h1><hr style="width: 175px;"><br>
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C# is pronounced "C-Sharp".
+It is an object-oriented programming language created by Microsoft that runs on the .NET Framework.
+C# has roots from the C family, and the language is close to other popular languages like C++ and Java.
+The first version was released in year 2002. The latest version, C# 8, was released in September 2019.
+</p><br>
+C# is used for:
+<ol>
+<li>Mobile applications</li>
+<li>Desktop applications</li>
+<li>Web services</li>
+<li>Web sites</li>
+<li>VR</li>
+<li>Database applications</li>
+<li>Web applications</li>
+<li>Web services</li>
+</ol> 
+<br>
+<h3>Why Use C#?</h3>
+<ol>
+<li>It is one of the most popular programming language in the world</li>
+<li>It is easy to learn and simple to use</li>
+<li>C# is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs.</li>
+<li>It has a huge community support</li>
+<li>As C# is close to C, C++ and Java, it makes it easy for programmers to switch to C# or vice versa</li>
+</ol>
+<br>
+<h1 id="head">Data Types</h1><hr style="width: 170px;"><br>
+<p>
+  A data type specifies the size and type of variable values. It is important to use the correct data type for the corresponding variable; to avoid errors, to save time and memory, but it will also make your code more maintainable and readable. The most common data types are:
+  
+<ol><li>int :bytes Stores whole numbers from -2,147,483,648 to 2,147,483,647</li>
+<li>long :bytes Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807</li>
+<li>float :bytes Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits</li>
+<li>double :bytes Stores fractional numbers. Sufficient for storing 15 decimal digits</li>
+<li>bool :bit Stores true or false values</li>
+<li>char :bytes Stores a single character/letter, surrounded by single quotes</li>
+<li>string :per character Stores a sequence of characters, surrounded by double quotes</li></ol>
+</p><br>
+<h1 id="comm">Comments</h1><hr style="width: 155px;"><br>
+<p>
+  Comments can be used to explain C# code, and to make it more readable. It can also be used to prevent execution when testing alternative code.
+<ol>
+  <li>Single-line comments start with two forward slashes (//).</li>
+  <li>Any text between // and the end of the line is ignored by C# (will not be executed).</li>
+</ol><br>
+<h1 id="cshstring">Strings</h1><hr style="width: 105px;"><br>
+Strings are used for storing text.<br>
+<h3>String Length</h3>
+<p>A string in C# is actually an object, which contain properties and methods that can perform certain operations on strings.</p>
+<h3>String Concatenation</h3>
+<p>The + operator can be used between strings to combine them. This is called concatenation</p>
+<h3>Access Strings</h3>
+<p>You can access the characters in a string by referring to its index number inside square brackets [].</p>
+</p><br>
+
+      </div>
+    </div>
+</div>
+
+</body>
+</html>

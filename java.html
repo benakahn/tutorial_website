@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Java Course</title>
+     <link rel = "icon" href = "images/e.jpg" type = "image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<style type="text/css">
+     @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+   background-color: #f3f5f9;
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar{
+  width: 200px;
+  height: 100%;
+  background: #03b6fc;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.wrapper .sidebar ul li a{
+  color: #fff;
+  display: block;
+}
+.hidden{
+  overflow: hidden
+}
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: #03b6fc;
+}
+    
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+}
+ 
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 200px;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}   
+    </style>
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="sidebar">
+        <h2>Java</h2>
+        <ul>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#head">Data Types</a></li>
+            <li><a href="#comm">Comments</a></li>
+           <li><a href="#jstring">Strings</a></li>
+            <li><a href="course.html">Back</a></li>
+        </ul> 
+        
+    </div>
+    <div class="main_content">
+        <div class="header">Java</div>  
+        <div class="info">
+         <h1 id="intro">Introduction</h1><hr style="width: 175px;"><br>
+         <p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Java is a popular programming language, created in 1995.
+It is owned by Oracle, and more than 3 billion devices run Java.
+</p>
+It is used for:
+<ol>
+  <li>Mobile applications</li>
+  <li>Desktop applications</li>
+  <li>Web applications</li>
+  <li>Web servers and application servers</li>
+  <li>Games</li>
+  <li>Database connection</li>
+</ol>
+<br>
+<h1 id="head">Data Types</h1><hr style="width: 170px;"><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A primitive data type specifies the size and type of variable values, and it has no additional methods.
+
+<ol>
+  <li>byte :Stores whole numbers from -128 to 127</li>
+  <li>short :Stores whole numbers from -32,768 to 32,767</li>
+  <li>int :Stores whole numbers from -2,147,483,648 to 2,147,483,647</li>
+  <li>long :Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807</li>
+  <li>float :Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+<li>double :Stores fractional numbers. Sufficient for storing 15 decimal digits</li>
+<li>boolean :Stores true or false values</li>
+<li>char  2 bytes Stores a single character/letter or ASCII values</li></ol>
+<br>
+<h1 id="comm">Comments</h1><hr style="width: 155px;"><br>
+<p>
+  <h3>Java Comments </h3>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comments can be used to explain Java code, and to make it more readable. It can also be used to prevent execution when testing alternative code.
+
+Single-line comments start with two forward slashes (//).
+
+Any text between // and the end of the line is ignored by Java (will not be executed).</p><br>
+
+<h1 id="jstring">Java Strings</h1><hr style="width: 175px;"><br>
+Strings are used for storing text.
+A String variable contains a collection of characters surrounded by double quotes.<br>
+<h3>String Length</h3>
+A String in Java is actually an object, which contain methods that can perform certain operations on strings.
+<h3>String Concatenation</h3>
+The + operator can be used between strings to combine them. This is called concatenation
+      </div>
+    </div>
+</div>
+
+</body>
+</html>
